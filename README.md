@@ -17,3 +17,8 @@ To generate synthesized composite images, traditional color transfer methods can
 ### Look-Up Table (LUT)
 
 Look-Up Table (LUT) is commonly used in image processing. We collect 100 LUTs from public websites and release the script of applying LUT to foreground. 
+
+
+### Transitive Approach
+
+For the images with recorded illumination information, we can first convert its foreground to the standard illumination condition, and then convert it to another illumination condition, arriving at a synthetic composite image. The related codes can be found [here](https://github.com/bcmi/Image-Harmonization-Dataset-ccHarmony).
