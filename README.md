@@ -1,6 +1,3 @@
-# ![hot](https://bcmi.sjtu.edu.cn/~niuli/images/fire.png) Our lab has released the image composition toolbox [libcom](https://github.com/bcmi/libcom), which integrates all the functions related to image composition. The toolbox would be continuously upgraded. Welcome to visit and try :-)
----
-
 # Color-Transfer-for-Image-Harmonization
 Training deep image harmonization network requires abundant pairs of composite images and harmonized images, which are very hard to acquire in practice. **An achievable approach is adjusting the foreground of real images to produce synthetic composite images, leading to pairs of synthetic composite images and real images.** Here, we summarize different color transfer strategies which could be used to adjust the foregrounds of real images.
 
